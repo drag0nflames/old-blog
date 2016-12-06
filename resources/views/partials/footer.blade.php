@@ -2,12 +2,14 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-2">
-                <h6>Copyright &copy; <?php echo "2013-".date('Y');?></h6>
+                <h6>Copyright &copy; <?php echo "2013-" . date('Y');?></h6>
             </div><!-- ./end col-sm-2-->
 
             <div class="col-sm-4">
                 <h6>About us </h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus
+                    eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos
+                    cupiditate dolore doloribus!</p>
             </div><!-- ./end col-sm-4-->
 
             <div class="col-sm-2">
@@ -23,10 +25,10 @@
             <div class="col-sm-2">
                 <h6>Follow Us:</h6>
                 <ul class="list-unstyled">
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Tumblr</a></li>
-                    <li><a href="#">Google Plus</a></li>
+                    <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i> Google+</a></li>
                 </ul>
             </div><!-- ./end col-sm-2-->
 
@@ -35,4 +37,4 @@
             </div><!-- ./end col-sm-2-->
         </div><!-- ./end row-->
     </div><!-- ./end container-->
-</div><!-- ./ end of panel-->
+</div><!-- ./ end of footer-->
