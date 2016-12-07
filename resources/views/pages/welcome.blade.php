@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Blog
+    Blog | Homepage
 @endsection
 
 @section('content')
