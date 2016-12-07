@@ -1,11 +1,15 @@
 @extends('layouts.master')
 
+@section('title')
+    Contact Page
+@endsection
+
 @section('content')
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
             <h1 align="center">Contact Us</h1>
             <hr>
-            <form>
+            <form action="" method="POST">
                 <div class="form-group">
                     <label name="email">Email</label>
                     <input id="email" name="email" class="form-control" placeholder="Enter email">
