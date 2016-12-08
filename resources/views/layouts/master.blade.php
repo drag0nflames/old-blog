@@ -27,8 +27,10 @@
 @include('partials.footer')
 
 <!--jquery CDN -->
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
@@ -37,16 +39,7 @@
 
 <!-- *** SCRIPTS TO INCLUDE *** -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/jquery.cookie.js"></script>
-<script src="/js/waypoints.min.js"></script>
-<script src="/js/modernizr.js"></script>
-<script src="/js/bootstrap-hover-dropdown.js"></script>
-<script src="/js/owl.carousel.min.js"></script>
-<script src="/js/front.js"></script>
-<script type="text/javascript" src="/js/checkout.js'"></script>
-<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
-
+<script src="/src/js/parsley.js"></script>
 
 @yield('scripts')
 </body>
