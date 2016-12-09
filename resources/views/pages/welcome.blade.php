@@ -56,48 +56,22 @@
                     <p class="lead">Some solid copy will help get you some users engaged. Use this area to come up with
                         something real nice.
                         You know what i'm saying?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, optio sunt! Esse exercitationem
-                        ipsum quisquam sequi tempore! Ab adipisci ex incidunt ipsam, labore libero necessitatibus nemo
-                        quaerat rem vel voluptate?</p>
+                    <p class="lead">Thank you so much for visiting. This site is built with PHP Frame work Laravel 5.</p>
                     <a href="" class="btn btn-lg btn-primary">Popular Post</a>
-                    <a href="" class="btn btn-lg btn-link">or a secondary button</a>
                 </div><!--./end well-->
             </div><!-- ./end col-12-->
         </div><!-- ./end bigcallout-->
 
         <div class="row">
             <div class="col-md-8">
-                <div class="post">
-                    <h1>Post Title</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, blanditiis doloribus harum
-                        itaque quis sunt temporibus. At consequuntur debitis doloremque, doloribus enim eveniet iure nam
-                        quod ratione tempora unde voluptate.</p>
-                    <a href="" class="btn btn-primary">Read more</a>
-                </div><!-- end of post-->
-                <hr>
-                <div class="post">
-                    <h1>Post Title</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, blanditiis doloribus harum
-                        itaque quis sunt temporibus. At consequuntur debitis doloremque, doloribus enim eveniet iure nam
-                        quod ratione tempora unde voluptate.</p>
-                    <a href="" class="btn btn-primary">Read more</a>
-                </div><!-- end of post-->
-                <hr>
-                <div class="post">
-                    <h1>Post Title</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, blanditiis doloribus harum
-                        itaque quis sunt temporibus. At consequuntur debitis doloremque, doloribus enim eveniet iure nam
-                        quod ratione tempora unde voluptate.</p>
-                    <a href="" class="btn btn-primary">Read more</a>
-                </div><!-- end of post-->
-                <hr>
-                <div class="post">
-                    <h1>Post Title</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, blanditiis doloribus harum
-                        itaque quis sunt temporibus. At consequuntur debitis doloremque, doloribus enim eveniet iure nam
-                        quod ratione tempora unde voluptate.</p>
-                    <a href="" class="btn btn-primary">Read more</a>
-                </div><!-- end of post-->
+                @foreach($posts as $post)
+                    <div class="post">
+                        <h3>{{$post->title}}</h3>
+                        <p>{{substr($post->body,0,300)}}{{strlen($post->body) > 300 ? "..." : ""}}</p>
+                        <a href="" class="btn btn-primary">Read more</a>
+                    </div><!-- end of post-->
+                    <hr>
+                @endforeach
             </div><!-- end of col-md-8-->
 
             <div class="col-md-3 col-md-offset-1">
