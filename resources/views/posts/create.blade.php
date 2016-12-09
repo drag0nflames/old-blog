@@ -29,6 +29,10 @@
                         <input id="title" name="title" type="text" class="form-control" placeholder="Enter Title">
                     </div><!-- end form-group-->
                     <div class="form-group">
+                        <label for="slug">Slug</label>
+                        <input id="slug" name="slug" type="text" class="form-control" placeholder="Enter Slug">
+                    </div><!-- end form-group-->
+                    <div class="form-group">
                         <label for="body">Body</label>
                         <textarea rows="6" id="body" name="body" class="form-control" placeholder="Enter Body Of Blog"></textarea>
                     </div><!-- end form-group-->
@@ -38,8 +42,4 @@
             </div><!-- end col-md-8-->
         </div><!-- end row-->
     </div><!-- end container-->
-@endsection
-
-@section('scripts')
-    <script src="/src/js/parsley.js"></script>
 @endsection
