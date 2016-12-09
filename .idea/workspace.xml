@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdeba451-616e-42d4-9ba7-af95e874addb" name="Default" comment="created PagesController to handle routing of pages">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/dragon.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/dragon.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/blog/single.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
@@ -35,7 +35,7 @@
       <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
+            <state relative-caret-position="1043">
               <caret line="129" column="24" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="24" />
               <folding>
                 <element signature="e#40#53#0#PHP" expanded="true" />
@@ -44,43 +44,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_message_sessions.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/partials/_message_sessions.blade.php">
+      <file leaf-file-name="BlogController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="420">
+              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
               <folding>
-                <element signature="e#7#392#0#PHP" expanded="true" />
+                <element signature="e#40#53#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/partials/header.blade.php">
+      <file leaf-file-name="single.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/blog/single.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -121,9 +101,9 @@
         <option value="$PROJECT_DIR$/resources/views/posts/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/public/src/css/app.css" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" />
       </list>
     </option>
   </component>
@@ -222,7 +202,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -236,11 +220,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,15 +242,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,7 +258,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file://C:/wamp64/www/blog/app/Http/routes.php&#10;hea&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/partials/header.blade.php&#10;wel&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/pages/welcome.blade.php&#10;_&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/partials/_message_sessions.blade.php&#10;master&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/layouts/master.blade.php&#10;show&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/posts/show.blade.php&#10;rou&#9;FILE&#9;file://C:/wamp64/www/blog/app/Http/routes.php&#10;pages&#9;FILE&#9;file://C:/wamp64/www/blog/app/Http/Controllers/PagesController.php&#10;ed\&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/posts/edit.blade.php&#10;sh&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/posts/show.blade.php&#10;crea&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/posts/create.blade.php&#10;post&#9;FILE&#9;file://C:/wamp64/www/blog/app/Http/Controllers/PostController.php&#10;pos&#9;FILE&#9;file://C:/wamp64/www/blog/app/Http/Controllers/PostController.php&#10;welc&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/pages/welcome.blade.php&#10;posts&#9;FILE&#9;file://C:/wamp64/www/blog/database/migrations/2016_12_07_043517_create_posts_table.php&#10;mas&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/layouts/master.blade.php&#10;ind&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/posts/index.blade.php&#10;main&#9;null&#9;null&#10;mast&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/layouts/master.blade.php&#10;head&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/partials/header.blade.php&#10;create&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/posts/create.blade.php&#10;Pos&#9;null&#9;null&#10;contact&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/pages/contact.blade.php&#10;fo&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/partials/footer.blade.php&#10;con&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/pages/contact.blade.php&#10;header&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/partials/header.blade.php&#10;footer&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/partials/footer.blade.php&#10;route&#9;FILE&#9;file://C:/wamp64/www/blog/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="blo&#9;FILE&#9;file://C:/wamp64/www/blog/app/Http/Controllers/BlogController.php&#10;ed&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/posts/edit.blade.php&#10;u&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/pages/about.blade.php&#10;pos&#9;FILE&#9;file://C:/wamp64/www/blog/app/Http/Controllers/PostController.php&#10;routes&#9;FILE&#9;file://C:/wamp64/www/blog/app/Http/routes.php&#10;hea&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/partials/header.blade.php&#10;wel&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/pages/welcome.blade.php&#10;_&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/partials/_message_sessions.blade.php&#10;master&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/layouts/master.blade.php&#10;show&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/posts/show.blade.php&#10;rou&#9;FILE&#9;file://C:/wamp64/www/blog/app/Http/routes.php&#10;pages&#9;FILE&#9;file://C:/wamp64/www/blog/app/Http/Controllers/PagesController.php&#10;ed\&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/posts/edit.blade.php&#10;sh&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/posts/show.blade.php&#10;crea&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/posts/create.blade.php&#10;post&#9;FILE&#9;file://C:/wamp64/www/blog/app/Http/Controllers/PostController.php&#10;welc&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/pages/welcome.blade.php&#10;posts&#9;FILE&#9;file://C:/wamp64/www/blog/database/migrations/2016_12_07_043517_create_posts_table.php&#10;mas&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/layouts/master.blade.php&#10;ind&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/posts/index.blade.php&#10;main&#9;null&#9;null&#10;mast&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/layouts/master.blade.php&#10;head&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/partials/header.blade.php&#10;create&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/posts/create.blade.php&#10;Pos&#9;null&#9;null&#10;contact&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/pages/contact.blade.php&#10;fo&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/partials/footer.blade.php&#10;con&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/pages/contact.blade.php&#10;header&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/partials/header.blade.php&#10;footer&#9;FILE&#9;file://C:/wamp64/www/blog/resources/views/partials/footer.blade.php&#10;route&#9;FILE&#9;file://C:/wamp64/www/blog/app/Http/routes.php" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -369,14 +349,7 @@
       <workItem from="1481209882449" duration="15327000" />
       <workItem from="1481251232597" duration="4970000" />
       <workItem from="1481258248622" duration="8214000" />
-      <workItem from="1481270254239" duration="2580000" />
-    </task>
-    <task id="LOCAL-00019" summary="edited">
-      <created>1481020514104</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1481020514104</updated>
+      <workItem from="1481270254239" duration="3865000" />
     </task>
     <task id="LOCAL-00020" summary="removed fixed class from footer">
       <created>1481020549197</created>
@@ -714,18 +687,25 @@
       <option name="project" value="LOCAL" />
       <updated>1481272852122</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="created method to  extract data from database and pass to the view">
+      <created>1481274139661</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1481274139661</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107617000" />
+    <option name="totallyTimeSpent" value="108902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29425114" sideWeight="0.5136876" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30711043" sideWeight="0.4863124" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30711043" sideWeight="0.4863124" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34621578" sideWeight="0.5091603" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -797,7 +777,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added method to access home,contact and about page" />
     <MESSAGE value="edited contact" />
     <MESSAGE value="added route links to anchor tag" />
     <MESSAGE value="view for displaying posts" />
@@ -822,20 +801,22 @@
     <MESSAGE value="route model binding" />
     <MESSAGE value="added routes for slugs" />
     <MESSAGE value="added blog controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="added blog controller" />
+    <MESSAGE value="created method to  extract data from database and pass to the view" />
+    <option name="LAST_COMMIT_MESSAGE" value="created method to  extract data from database and pass to the view" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php</url>
+          <line>4</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/about.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1017,13 +998,6 @@
     <entry file="file://$PROJECT_DIR$/storage/framework/sessions/f5d5c18b522f7b124e82a6f0d0ca89ec50caaebd" />
     <entry file="file://$PROJECT_DIR$/storage/framework/sessions/979e3e9ff0a3c89b955b9f45671842c93a106808" />
     <entry file="file://$PROJECT_DIR$/resources/views/partials/_messages.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/about.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/session.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -1057,26 +1031,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/posts/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="19" column="60" selection-start-line="16" selection-start-column="16" selection-end-line="24" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1110,16 +1068,6 @@
         <state relative-caret-position="383">
           <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="129" column="24" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="24" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1173,10 +1121,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
+        <state relative-caret-position="481">
           <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
           <folding>
             <element signature="e#7#392#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1043">
+          <caret line="129" column="24" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="24" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/blog/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
