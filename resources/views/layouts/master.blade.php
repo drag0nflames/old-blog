@@ -20,6 +20,8 @@
 </head>
 <body>
 @include('partials.header')
+
+@include('partials._message_sessions')
 <div class="container" id="main">
     @yield('content')
 </div><!-- ./end container-->
@@ -39,7 +41,6 @@
 
 <!-- *** SCRIPTS TO INCLUDE *** -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="/src/js/parsley.js"></script>
 
 @yield('scripts')
 </body>
