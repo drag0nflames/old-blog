@@ -22,6 +22,9 @@
 @include('partials.header')
 
 @include('partials._message_sessions')
+
+
+
 <div class="container" id="main">
     @yield('content')
 </div><!-- ./end container-->
