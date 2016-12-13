@@ -33,11 +33,10 @@
     //    'password' => 'Auth\PasswordController',
     //]);
 
-
+    //PagesController
     Route::get('/', 'PagesController@getIndex');
-
     Route::get('/contact', 'PagesController@getContact');
-
     Route::get('/about', 'PagesController@getAbout');
 
+    //resource controller for handling posts
     Route::resource('posts','PostController');
