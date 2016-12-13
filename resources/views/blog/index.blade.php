@@ -6,7 +6,7 @@
 
 @section('content')
 <div class="container-fluid">
-    <div class="row col-md-offset-2">
+    <div class="row col-md-offset-1 col-md-10">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h1>Blog</h1>
