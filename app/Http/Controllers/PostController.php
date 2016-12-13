@@ -10,6 +10,11 @@ use Illuminate\Support\Facades\App;
 
 class PostController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -102,8 +107,10 @@ class PostController extends Controller
         $this->validate($request, array(
             'title' => 'required|max:255',
             'body' => 'required',
-            'slug' => 'required|alpha_dash|min:5|max:255'
-        ));
+            'slug' => 'required|alpha_dash|min:5|max:255|unique:posts,slug,'.$id
+
+));
+
         //save to the database
         $post = Post::find($id);
         $post->title = $request->input('title');
