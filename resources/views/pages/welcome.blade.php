@@ -57,7 +57,7 @@
                         something real nice.
                         You know what i'm saying?</p>
                     <p class="lead">Thank you so much for visiting. This site is built with PHP Frame work Laravel 5.</p>
-                    <a href="" class="btn btn-lg btn-primary">Popular Post</a>
+                    <a href="{{url('/blog')}}" class="btn btn-lg btn-primary">Popular Post</a>
                 </div><!--./end well-->
             </div><!-- ./end col-12-->
         </div><!-- ./end bigcallout-->
@@ -77,6 +77,20 @@
             <div class="col-md-3 col-md-offset-1">
                 <h1>Side Bar</h1>
             </div><!-- end of col-md-3-->
+
+            {{--<div class="row">--}}
+                {{--<div class="col-md-12">--}}
+                    {{--@foreach($posts as $post)--}}
+                        {{--<div class="post list-group">--}}
+                            {{--<div class="list-group-item">--}}
+                                {{--<h3>{{$post->title}}</h3>--}}
+                                {{--<p>{{substr($post->body,0,300)}}{{strlen($post->body) > 300 ? "..." : ""}}</p>--}}
+                                {{--<a href="{{url('blog/'.$post->slug)}}" class="btn btn-primary">Read more</a>--}}
+                            {{--</div><!-- end of list-group-item-->--}}
+                        {{--</div><!-- end of post-->--}}
+                        {{--<hr>--}}
+                    {{--@endforeach--}}
+            {{--</div><!-- end of col-md-8-->--}}
         </div><!-- end of row-->
     </div><!-- end of container -->
 
