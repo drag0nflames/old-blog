@@ -12,16 +12,17 @@ class PasswordController extends Controller
     | Password Reset Controller
     |--------------------------------------------------------------------------
     |
-    | This controller is responsible for handling password reset requests
+    | This controller is responsible for handling passwords reset requests
     | and uses a simple trait to include this behavior. You're free to
     | explore this trait and override any methods you wish to tweak.
     |
     */
 
     use ResetsPasswords;
+    protected $redirectTo = '/';
 
     /**
-     * Create a new password controller instance.
+     * Create a new passwords controller instance.
      *
      * @return void
      */
