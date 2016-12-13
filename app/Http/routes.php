@@ -28,13 +28,13 @@
     Route::post('password/email', 'Auth\PasswordController@sendResetLinkEmail');
     Route::post('password/reset', 'Auth\PasswordController@reset');
 
-//Route::controllers([
-//    'auth' => 'Auth\AuthController',
-//    'password' => 'Auth\PasswordController',
-//]);
+    //Route::controllers([
+    //    'auth' => 'Auth\AuthController',
+    //    'password' => 'Auth\PasswordController',
+    //]);
 
 
-Route::get('/', 'PagesController@getIndex');
+    Route::get('/', 'PagesController@getIndex');
 
     Route::get('/contact', 'PagesController@getContact');
 
