@@ -43,7 +43,6 @@
             </table><!-- end of table-->
             <div class="text-center">
                 {{ $posts->links() }}<br>
-                {{$posts->currentPage()}} of {{$posts->lastPage()}}
             </div><!-- end of text-center-->
         </div><!-- end of col-md-12-->
     </div><!-- end of row-->
