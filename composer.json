@@ -14,7 +14,8 @@
         "phpunit/phpunit": "~4.0",
         "symfony/css-selector": "2.8.*|3.0.*",
         "symfony/dom-crawler": "2.8.*|3.0.*",
-        "doctrine/dbal":"*"
+        "doctrine/dbal":"*",
+        "league/oauth2-server": "4.1.*"
     },
     "autoload": {
         "classmap": [
