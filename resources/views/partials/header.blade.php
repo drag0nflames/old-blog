@@ -17,24 +17,28 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="{{ Request::is('/') ? "active" : "" }}"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+                    <li class="{{ Request::is('blog') ? "active" : "" }}"><a href="{{ URL::to('/blog') }}">Blog <span class="sr-only">(current)</span></a></li>
                     <li class="{{ Request::is('about') ? "active" : "" }}"><a href="{{ URL::to('/about') }}">About</a></li>
                     <li class="{{ Request::is('contact') ? "active" : "" }}"><a href="{{ URL::to('/contact') }}">Contact</a></li>
 
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">My Account<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
+                    @if(Auth::check())
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">Hello {{Auth::user()->name}}<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{{route('posts.index')}}">Posts</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="{{route('logout')}}">Logout</a></li>
+                            </ul><!-- end of ul-->
+                        </li><!-- end of li-->
+                     @else
+                        <a href="{{route('login')}}" class="btn btn-default navbar-btn">Login</a>
+                        <a href="{{route('register')}}" class="btn btn-default navbar-btn">Register</a>
+                    @endif
+                </ul><!-- end of ul-->
+            </div><!-- /.nav bar-collapse -->
         </div><!-- /.end container-->
     </div><!-- /.container-fluid -->
 </nav>
