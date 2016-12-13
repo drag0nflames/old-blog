@@ -16,10 +16,10 @@
                 <div class="col-sm-2">
                     <h6>Navigation</h6>
                     <ul class="list-unstyled">
-                        <li><a href="www.facebook.com">Home</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Links</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="{{url('blog')}}">Blog</a></li>
+                        <li><a href="{{url('contact')}}">Contact Us</a></li>
+                        <li><a href="{{url('about')}}">About</a></li>
                     </ul>
                 </div><!-- ./end col-sm-2-->
 
