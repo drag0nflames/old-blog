@@ -4,10 +4,6 @@
     Create New Post
 @endsection
 
-@section('styles')
-    <link rel="stylesheet" href="{{ URL::to('src/css/parsley.css') }}">
-@endsection
-
 @section('content')
     <div class="container">
         <div class="row">
